@@ -3,8 +3,8 @@ repeat wait() until game:IsLoaded()
 getgenv().Fix = true
 
 getgenv().TeclasWS = {
-    ["tecla1"] = "M", -- speed +5
-    ["tecla2"] = "N", -- speed -5
+    ["tecla1"] = "M", -- speed +20
+    ["tecla2"] = "N", -- speed -20
     ["tecla3"] = "x" -- toggle  
 }
 
@@ -23,7 +23,7 @@ local lista_de_victimas_de_drizzy = getrenv()._G
 local da_hood_rblxm_REAL = getrawmetatable(game)
 local CP = da_hood_rblxm_REAL.__newindex
 local CP_DE_DRIZZY = da_hood_rblxm_REAL.__index
-local velocidad_de_cum = 100
+local velocidad_de_cum = 300
 local es_pedofilo = true
 
 -- // funciones para acortar codigo :]
